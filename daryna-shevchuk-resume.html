@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daryna Shevchuk – Technical Product Manager</title>
+<style>
+  :root {
+    --ink: #1f2933;
+    --muted: #52606d;
+    --accent: #1d4e89;
+    --rule: #d9e2ec;
+    --side-bg: #f0f4f8;
+    --page-bg: #e4e7eb;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    margin: 0;
+    padding: 24px 16px;
+    background: var(--page-bg);
+    color: var(--ink);
+    font: 10.5pt/1.45 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .page {
+    max-width: 210mm;
+    margin: 0 auto;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 62mm 1fr;
+    box-shadow: 0 2px 12px rgba(0,0,0,.15);
+  }
+  aside { background: var(--side-bg); padding: 14mm 7mm; }
+  main  { padding: 14mm 10mm 14mm 9mm; }
+
+  h1 { margin: 0; font-size: 24pt; line-height: 1.1; color: var(--accent); }
+  .tagline { margin: 4px 0 0; color: var(--muted); font-size: 10.5pt; }
+
+  h2 {
+    margin: 18px 0 6px;
+    font-size: 9.5pt;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 3px;
+  }
+  aside h2 { margin-top: 20px; }
+  aside h2:first-child { margin-top: 0; }
+  main header + h2 { margin-top: 16px; }
+
+  p { margin: 0 0 6px; }
+  ul { margin: 0; padding: 0; list-style: none; }
+  aside li { margin: 0 0 3px; font-size: 9.5pt; }
+  aside li.sub { color: var(--muted); }
+  aside .item { margin-bottom: 8px; font-size: 9.5pt; }
+  aside .item small { display: block; color: var(--muted); }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .job { margin-bottom: 12px; break-inside: avoid; }
+  .job h3 { margin: 0; font-size: 10.5pt; }
+  .job .meta { color: var(--muted); font-size: 9.5pt; margin-bottom: 3px; }
+  .job ul li { position: relative; padding-left: 12px; margin-bottom: 2px; }
+  .job ul li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
+
+  .strengths { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 14px; }
+  .strengths li { position: relative; padding-left: 12px; }
+  .strengths li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
+
+  @media (max-width: 700px) {
+    .page { grid-template-columns: 1fr; }
+    aside { padding: 20px 16px; }
+    main { padding: 20px 16px; }
+    .strengths { grid-template-columns: 1fr; }
+  }
+  @media print {
+    @page { size: A4; margin: 0; }
+    body { background: #fff; padding: 0; }
+    .page { box-shadow: none; max-width: none; min-height: 590mm; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <aside>
+    <h2>Contact</h2>
+    <ul>
+      <li><a href="mailto:rinshev@gmail.com">rinshev@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/daryna-shevchuk-19101993/">LinkedIn Profile</a></li>
+      <li>Kyiv, Ukraine</li>
+    </ul>
+
+    <h2>Product Skills</h2>
+    <ul>
+      <li>Product Discovery</li>
+      <li>Roadmapping</li>
+      <li>Hypothesis Validation</li>
+      <li>User Research &amp; UX</li>
+      <li>A/B Testing</li>
+      <li>KPI Definition</li>
+      <li>Stakeholder Management</li>
+      <li>Product Analytics</li>
+      <li>Scrum / Kanban</li>
+      <li>API Requirements &amp; Specs</li>
+    </ul>
+
+    <h2>Technical</h2>
+    <ul>
+      <li>APIs / Postman / Swagger</li>
+      <li>Webhooks &amp; Integrations</li>
+      <li>Figma / Miro</li>
+      <li>Jira / Confluence / Notion</li>
+      <li>GitHub</li>
+      <li>AI Tools &amp; Integrations</li>
+      <li>Firebase / AWS (coordination)</li>
+    </ul>
+
+    <h2>AI Expertise</h2>
+    <ul>
+      <li>AI feature delivery</li>
+      <li>Chatbot integration</li>
+      <li>AI feasibility evaluation</li>
+    </ul>
+
+    <h2>Domains</h2>
+    <ul>
+      <li>Mobile Apps (iOS/Android)</li>
+      <li>SaaS / CRM Platforms</li>
+      <li>Fintech / Payments</li>
+      <li>Wellness / Fitness</li>
+      <li>Property Management</li>
+      <li>Non-profit / Charity</li>
+    </ul>
+
+    <h2>Education</h2>
+    <div class="item">
+      National Technical University of Ukraine (KPI)
+      <small>Bachelor's, Sociology</small>
+      <small>2011 – 2015</small>
+    </div>
+
+    <h2>Certifications</h2>
+    <div class="item">
+      Claude with the Anthropic API
+      <small>Anthropic · 2026</small>
+      <small><a href="https://verify.skilljar.com/c/d9u9bd5ruvxd">Certificate No. d9u9bd5ruvxd</a></small>
+    </div>
+    <div class="item">Google Project Management</div>
+  </aside>
+
+  <main>
+    <header>
+      <h1>Daryna Shevchuk</h1>
+      <p class="tagline">Technical Product Manager · Mobile &amp; AI Products · Product Discovery &amp; Delivery</p>
+    </header>
+
+    <h2>Professional Summary</h2>
+    <p>Technical Product/Project Manager with nearly 5 years in IT, specialising in end-to-end product delivery across mobile, web, and SaaS platforms. Experienced in leading cross-functional teams through ambiguity — from product discovery and API definition to stakeholder alignment and release. Proven ability to translate complex business needs into actionable product roadmaps. Hands-on AI implementation experience (chatbots, AI assistants, email generation tools) in real production environments. Known for bridging business goals with technical execution — and for delivering even in crisis: successfully coordinated recovery from a major user-loss event, re-aligning priorities, stabilising delivery, and driving retention improvements.</p>
+
+    <h2>Experience</h2>
+
+    <div class="job">
+      <h3>Product Project Manager</h3>
+      <div class="meta">Brocoders | On-demand Technical Team | Apr 2024 – Present | Kyiv, Ukraine</div>
+      <ul>
+        <li>Led end-to-end delivery of wellness-focused mobile applications; coordinated backend, third-party, and AI integrations</li>
+        <li>Defined API requirements and validated backend specifications for mobile app features</li>
+        <li>Coordinated AI-powered feature delivery: intelligent assistants, email generation tools, and chatbot integrations</li>
+        <li>Structured and enhanced interactive Figma prototypes to align with business goals and UX consistency</li>
+        <li>Managed full CRM system lifecycle — from architecture planning through QA and stakeholder sign-off</li>
+        <li>Translated ambiguous business requirements into clear development tasks with well-defined acceptance criteria</li>
+        <li>Led crisis management response to a significant user-loss event: root cause analysis, team realignment, retention recovery</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Project Management Officer</h3>
+      <div class="meta">GloryFunds | Jan 2024 – Jun 2025 | Kyiv, Ukraine</div>
+      <ul>
+        <li>Managed social-commercial hybrid projects combining charitable impact with revenue generation</li>
+        <li>Oversaw corporate charity events, training programmes, and non-profit service delivery initiatives</li>
+        <li>Supported marketing and lead generation for non-profit clients</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Product Project Manager</h3>
+      <div class="meta">Diversido | Jun 2023 – May 2024 | Kyiv, Ukraine</div>
+      <ul>
+        <li>Onboarded to mobile development from scratch — rapidly mastered mobile API flows and SDK constraints to deliver on time</li>
+        <li>Led product discovery: concept definition, target audience research, design structure, software architecture</li>
+        <li>Evaluated and implemented AI integrations for web projects</li>
+        <li>Built cross-functional team processes; introduced retros, tech syncs, and monthly client reporting</li>
+        <li>Managed physical device (hardware + firmware) development projects</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Project Manager</h3>
+      <div class="meta">P2H | Nov 2021 – Jun 2023 | Kyiv, Ukraine</div>
+      <ul>
+        <li>Managed 7–10 web projects simultaneously with teams of 10–15 (FE, BE, QA)</li>
+        <li>Researched and improved contractor-client cooperation processes</li>
+        <li>Applied Scrum and Kanban methodologies; facilitated standups, retrospectives, and planning</li>
+        <li>Interviewed and mentored incoming project managers</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Project Manager → Head of Development Department</h3>
+      <div class="meta">ITUA | Oct 2020 – Nov 2021 | Kyiv, Ukraine</div>
+      <ul>
+        <li>Promoted to Head of Department within 6 months — recognised for execution quality and leadership</li>
+        <li>Successfully launched a large-scale medicine marketplace from kickoff to production</li>
+        <li>Prepared functional specifications; managed milestones, QA, and stakeholder communication</li>
+        <li>Participated in company strategy building as department head</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Project Coordinator</h3>
+      <div class="meta">Mystetskyi Arsenal | Jan 2020 – Sep 2020 | Kyiv, Ukraine</div>
+      <ul>
+        <li>Coordinated online and offline projects for Book Arsenal Festival and Literary Laboratory</li>
+      </ul>
+    </div>
+
+    <h2>Key Strengths</h2>
+    <ul class="strengths">
+      <li>Deep technical fluency with engineering teams</li>
+      <li>Mobile product operations (iOS &amp; Android)</li>
+      <li>Ambiguity handling &amp; crisis management</li>
+      <li>AI feature integration in production</li>
+      <li>Product discovery to delivery ownership</li>
+      <li>Stakeholder communication under pressure</li>
+    </ul>
+  </main>
+
+</div>
+</body>
+</html>
